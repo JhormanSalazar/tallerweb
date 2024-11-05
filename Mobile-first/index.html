@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile First</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Hecho por Jhorman Andres Salazar Quiroz 
+    
+    Ejercicio Propuesto: Crea una página que incluya un menú de navegación, encabezado y secciones de contenido. Diseña la página inicialmente para una pantalla de móvil, usando un ancho de contenedor de 100%. Luego, usa media queries para adaptarlo a tabletas y pantallas de escritorio. Explica cómo cada cambio afecta el diseño.
+    -->
+  <nav class="nav">
+    <ul>
+      <li><a href="#home">Inicio</a></li>
+      <li><a href="#about">Acerca de</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <header class="header">
+    <h1>Bienvenid@, cambia entre anchos de pantalla para ver los cambios responsive en la nav</h1>
+  </header>
+  <main class="content">
+    <section id="media1">
+      <h2>Media < 728px</h2>
+      <p>En esta media query, donde la pantalla es menor a 728 pixeles de ancho (vista para celular) la NavBar es vertical, para que se pueda navegar entre las opciones facilmente.</p>
+    </section>
+    <section id="media2">
+      <h2>Media min 728px</h2>
+      <p>En esta media query, donde la pantalla tiene un ancho mínimo de 728 pixeles (vista para tableta) la NavBar esta organizada con justify-content: space-around, lo cual proporciona un espaciado entre las opciones, para que se pueda navegar entre las opciones facilmente.</p>
+    </section>
+    <section id="media3">
+      <h2>Media min 1024px</h2>
+      <p>En esta media query, donde la pantalla tiene un ancho mínimo de 1024 pixeles (vista para pantallas de escritorio y pcs) la NavBar esta organizada con justify-content: flex-end, lo cual mueve los elementos de la lista al final de la pantalla, para que se pueda navegar entre las opciones facilmente.</p>
+    </section>
+  </main>
+</body>
+</html>

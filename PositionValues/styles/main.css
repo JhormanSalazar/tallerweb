@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    background-color: orange;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.main-section {
+    height: 250px;
+    width: 600px;
+    margin: 50px auto;
+    background-color: blue;
+}
+
+.main-section1 {
+    margin-top: 100px;
+    position: relative;
+}
+
+.main-section2 {
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+    background-color: orange;
+    width: 20%;
+}
+
+.main-section3 {
+    position: sticky;
+    top: 0;
+    background-color: red;
+    height: 150px;
+}

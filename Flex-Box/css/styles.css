@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #333;
+    padding: 1em;
+}
+
+.nav-item {
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.nav-item:nth-child(1) { /* Cambiamos el orden de los elementos */
+    order: 2;
+}
+
+.nav-item:nth-child(2) {
+    order: 1;
+}
+
+.nav-item:nth-child(3) {
+    order: 2;
+}
+
+.nav-item:nth-child(4) {
+    align-self: flex-end; /* Ajustamos la alineación individual */
+    flex-grow: 1; /* Hace que ocupe más espacio */
+    text-align: center;
+    background-color: #555;
+}
